@@ -1,0 +1,9 @@
+streamlit
+openai
+beautifulsoup4
+requests
+fpdf
+pandas
+scikit-learn
+selenium
+playwright
