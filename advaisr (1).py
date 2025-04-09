@@ -19,6 +19,8 @@
 # - Export results as CSV and JSON
 
 # Run this command to upgrade the OpenAI package
+import os
+os.system("pip install openai")
 
 import subprocess
 
