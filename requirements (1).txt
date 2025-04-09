@@ -8,4 +8,5 @@ scikit-learn
 selenium
 playwright
 python-dotenv
+playwright install
 
