@@ -36,18 +36,18 @@ print(f"OpenAI package version after upgrade: {openai.__version__}")
 
 
 # In[ ]:
-pip install openai
+#pip install openai
 
 
 # In[ ]:
 
 
-pip install fpdf
+#pip install fpdf
 
 
 # In[ ]:
 # 📦 Install both Selenium and Playwright
-pip install selenium playwright
+#pip install selenium playwright
 
 
 
@@ -55,7 +55,7 @@ pip install selenium playwright
 
 
 # 🧠 Install Chromium for Playwright (only needs to be run once)
-pip install playwright
+#pip install playwright
 
 
 # In[ ]:
@@ -70,6 +70,7 @@ scikit-learn
 selenium
 playwright
 python-dotenv
+
 
 pip install -r requirements.txt
 playwright install
