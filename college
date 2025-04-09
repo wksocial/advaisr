@@ -1,0 +1,33 @@
+import os
+import openai
+import streamlit as st
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+st.set_page_config(page_title="Advaisr", layout="centered")
+st.title("🤖 Advaisr: Your AI Assistant")
+
+user_input = st.text_area("Ask Advaisr anything:", height=150)
+
+if st.button("Ask"):
+    if user_input.strip():
+        with st.spinner("Thinking..."):
+            try:
+                response = openai.ChatCompletion.create(
+                    model="gpt-4",
+                    messages=[
+                        {"role": "system", "content": "You are Advaisr, an expert consultant. Respond clearly and concisely."},
+                        {"role": "user", "content": user_input}
+                    ],
+                    temperature=0.7,
+                    max_tokens=600
+                )
+                st.success("Here's what Advaisr says:")
+                st.write(response.choices[0].message["content"])
+            except Exception as e:
+                st.error(f"⚠️ Error: {e}")
+    else:
+        st.warning("Please enter a question or prompt.")
