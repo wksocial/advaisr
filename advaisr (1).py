@@ -58,16 +58,19 @@ pip install playwright
 
 # In[ ]:
 
+streamlit
 openai
-pandas
-requests
 beautifulsoup4
+requests
 fpdf
+pandas
 scikit-learn
+selenium
 playwright
 python-dotenv
 
 pip install -r requirements.txt
+playwright install
 
 
 import requests
