@@ -19,7 +19,11 @@
 # - Export results as CSV and JSON
 
 # Run this command to upgrade the OpenAI package
-pip install --upgrade openai')
+
+import subprocess
+
+subprocess.run(["pip", "install", "--upgrade", "openai"])
+
 
 # Let's also check the version after upgrading
 import openai
