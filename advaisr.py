@@ -1512,6 +1512,6 @@ def find_competitors(keyword, api_key, cse_id, num_results=5):
         'num': num_results
     }
     
-    try:
+    
         
 
