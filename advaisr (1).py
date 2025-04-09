@@ -91,6 +91,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_CSE_ID = os.getenv("GOOGLE_CSE_ID")
+
 
 #Add the ask_with_fusion() Function
 "You are AI Advisor, a senior consultant who specializes in marketing, SEO strategy, and brand positioning. You respond like a human advisor — direct, smart, and focused on impact."
