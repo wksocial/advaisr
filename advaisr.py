@@ -20,7 +20,7 @@
 # - Export results as CSV and JSON
 
 # Run this command to upgrade the OpenAI package
-#get_ipython().system('pip install --upgrade openai')
+get_ipython().system('pip install --upgrade openai')
 
 # Let's also check the version after upgrading
 import openai
