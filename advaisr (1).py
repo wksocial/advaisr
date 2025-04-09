@@ -9,7 +9,6 @@
 
 # In[ ]:
 
-
 # 🧠 SEO Keyword Analyzer (Modular App)
 # This notebook allows a user to input any website URL and optional keyword.
 # It will:
@@ -20,31 +19,28 @@
 # - Export results as CSV and JSON
 
 # Run this command to upgrade the OpenAI package
-get_ipython().system('pip install --upgrade openai')
+pip install --upgrade openai')
 
 # Let's also check the version after upgrading
 import openai
 print(f"OpenAI package version after upgrade: {openai.__version__}")
 
 # If you want to see all the details about the installed package
-get_ipython().system('pip show openai')
+#pip install pip show openai
 
 # In[ ]:
-
-get_ipython().system('pip install openai')
-
-
-# In[ ]:
-
-
-get_ipython().system('pip install fpdf')
+pip install openai
 
 
 # In[ ]:
 
 
+pip install fpdf
+
+
+# In[ ]:
 # 📦 Install both Selenium and Playwright
-get_ipython().system('pip install selenium playwright')
+pip install selenium playwright
 
 
 
@@ -52,7 +48,7 @@ get_ipython().system('pip install selenium playwright')
 
 
 # 🧠 Install Chromium for Playwright (only needs to be run once)
-get_ipython().system('playwright install')
+pip install playwright
 
 
 # In[ ]:
