@@ -31,6 +31,7 @@ print(f"OpenAI package version after upgrade: {openai.__version__}")
 
 # If you want to see all the details about the installed package
 #pip install pip show openai
+pip install -r requirements.txt
 
 # In[ ]:
 pip install openai
