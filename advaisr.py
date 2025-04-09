@@ -31,20 +31,20 @@ get_ipython().system('pip show openai')
 
 # In[ ]:
 
-get_ipython().system('pip install openai')
+pip install openai
 
 
 # In[ ]:
 
 
-get_ipython().system('pip install fpdf')
+pip install fpdf
 
 
 # In[ ]:
 
 
 # 📦 Install both Selenium and Playwright
-get_ipython().system('pip install selenium playwright')
+pip install openai().system('pip install selenium playwright')
 
 
 
@@ -52,7 +52,7 @@ get_ipython().system('pip install selenium playwright')
 
 
 # 🧠 Install Chromium for Playwright (only needs to be run once)
-get_ipython().system('playwright install')
+pip install openai().system('playwright install')
 
 
 # In[ ]:
